@@ -1,4 +1,4 @@
-export const GenderOptions = ["Male", "Female", "Other"];
+export const GenderOptions = ["male", "female", "other"];
 
 export const PatientFormDefaultValues = {
   firstName: "",
@@ -6,7 +6,7 @@ export const PatientFormDefaultValues = {
   email: "",
   phone: "",
   birthDate: new Date(Date.now()),
-  gender: "Male" as Gender,
+  gender: "male" as Gender,
   address: "",
   occupation: "",
   emergencyContactName: "",
@@ -38,6 +38,8 @@ export const IdentificationTypes = [
   "State ID Card",
   "Student ID Card",
   "Voter ID Card",
+  "College ID Card",
+  "Aadhaar Card",
 ];
 
 export const Doctors = [
